@@ -1,14 +1,14 @@
 import streamlit as st
 import pandas as pd
-import joblib
+import joblib as jd
 
 def main():
     st.title("Clasificación de Calidad del Aire")
 
     # Cargar modelos
-    knn_model = joblib.load("KNN.joblib")
-    svm_model = joblib.load("SVM.joblib")
-    rf_model = joblib.load("Random Forest.joblib")
+    knn_model = jd.load("KNN.joblib")
+    svm_model = jd.load("SVM.joblib")
+    rf_model = jd.load("Random Forest.joblib")
 
     # (Opcional) Cargar el escalador si lo usaste en el entrenamiento
     # scaler = joblib.load("scaler.joblib")
