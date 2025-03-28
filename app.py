@@ -3,6 +3,10 @@ import joblib
 import numpy as np
 import matplotlib.pyplot as plt
 
+
+
+
+
 # Cargar modelo y scaler
 model = joblib.load("Knn.joblib")
 scaler = joblib.load("scaler.joblib")
