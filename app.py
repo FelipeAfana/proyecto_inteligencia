@@ -19,7 +19,7 @@ st.markdown("# 🌍 Predicción de Calidad del Aire")
 # Sidebar para entrada de datos
 st.sidebar.markdown("### 🏡 Ingrese los valores:")
 PM10 = st.sidebar.slider("PM10", 0.0, 300.0, 50.0)
-NO2 = st.sidebar.slider("NO2", 0.0, 200.0, 30.0)¿
+NO2 = st.sidebar.slider("NO2", 0.0, 200.0, 30.0)
 PM2_5 = st.sidebar.slider("PM2.5", 0.0, 200.0, 25.0)
 O3 = st.sidebar.slider("O3", 0.0, 300.0, 100.0)
 Temperatura = st.sidebar.slider("Temperatura (°C)", -10.0, 50.0, 25.0)
